@@ -7,6 +7,11 @@ from aiogram.types import FSInputFile
 import subprocess
 import asyncio
 import json
+import os
+
+
+if not os.path.exists('./tmp_storage'):
+    os.mkdir('./tmp_storage')
 
 
 REDIS_SETTINGS = RedisSettings()
