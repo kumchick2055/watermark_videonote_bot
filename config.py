@@ -1,0 +1,2 @@
+BOT_TOKEN='6551897759:AAG5hJkd7NpSrR-s0W0y4d1WUtNArYkgHtI'
+QUEUE_NAME='arq:circle_bot'
